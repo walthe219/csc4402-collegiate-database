@@ -1,0 +1,13 @@
+PLAYER,,,,,,,
+PlayerID,FirstName,LastName,Height,Age,Year,Weight,HomeTown
+P001,Aaron,Anderson,68,23,Junior,188,New Orleans
+P002,Nic,Anderson,76,22,Junior,208,Katy
+P003,Zavion,Thomas,70,22,Senior,192,Woodmere
+P004,Germie,Bernard,73,22,Senior,204,Las Vegas
+P005,Isaiah,Horton,76,22,Junior,208,Nashville
+P006,Jaylen,Mbakwe,71,20,Sophomore,190,Clay
+P007,CJ,Wiley,76,19,Freshman,210,Baton Rouge
+P008,Tyler,Williams,74,19,Freshman,205,Tampa
+P009,London,Humphreys,74,20,Junior,200,Nashville
+P010,Garrett,Nussmeier,74,23,Senior,205,Lake Charles
+P011,Michael,Van Buren,73,20,Sophomore,200,Bowie

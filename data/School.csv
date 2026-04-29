@@ -1,0 +1,12 @@
+SCHOOL,,,
+SchoolID,SchoolName,City,State
+S001,LSU,Baton Rouge,LA
+S002,Alabama,Tuscaloosa,AL
+S003,Ole Miss,Oxford,MS
+S004,Georgia,Athens,GA
+S005,Texas A&M,College Station,TX
+S006,Florida,Gainesville,FL
+S007,Tennesee ,Knoxville,TN
+S008,Auburn,Auburn,AL
+S009,Clemson,Clemson,SC
+-,,,
