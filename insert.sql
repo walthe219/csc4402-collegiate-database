@@ -38,3 +38,21 @@ INSERT INTO Sport values ('-','','');
 INSERT INTO Sport values ('-','','');
 INSERT INTO Sport values ('-','','');
 
+-- Team records
+DELETE FROM Team;
+-- Position records
+DELETE FROM Position;
+-- Game records
+DELETE FROM Game;
+-- Injury records
+DELETE FROM Injury;
+-- Performance records
+DELETE FROM Performance;
+-- QuarterbackStats records
+DELETE FROM QuarterbackStats;
+-- WideReceiverStats records
+DELETE FROM WideReceiverStats;
+-- BasketBallStats records
+DELETE FROM BasketBallStats;
+-- PitcherStats records
+DELETE FROM PitcherStats;

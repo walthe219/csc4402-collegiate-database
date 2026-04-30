@@ -1,5 +1,18 @@
 -- psql -U postgres -d csc4402 -f create.sql
+-- creates all database tables
+
+DROP TABLE QuarterbackStats;
+DROP TABLE WideReceiverStats;
+DROP TABLE BasketBallStats;
+DROP TABLE PitcherStats;
+DROP TABLE Performance;
+DROP TABLE Game;
+DROP TABLE Position;
+DROP TABLE Injury;
+DROP TABLE Team;
 DROP TABLE Player;
+DROP TABLE School;
+DROP TABLE Sport;
 
 CREATE TABLE Player(
     PlayerID varchar(255) PRIMARY KEY,
