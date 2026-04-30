@@ -51,11 +51,11 @@ CREATE TABLE Team(
 
 CREATE TABLE Position(
     PlayerID varchar(255),
-    TeamID varchar(255),
     Season varchar(255),
+    TeamID varchar(255),
     Position varchar(255),
     Number int,
-    PRIMARY KEY(PlayerID,TeamID,Season),
+    PRIMARY KEY(PlayerID,Season),
     FOREIGN KEY(PlayerID) REFERENCES Player(PlayerID),
     FOREIGN KEY(TeamID) REFERENCES Team(TeamID)
 );
@@ -67,8 +67,8 @@ CREATE TABLE Game(
     HomeTID varchar(255),
     AwayScore int,
     HomeScore int,
-    FOREIGN KEY(AwayTID) REFERENCES Game(GameID),
-    FOREIGN KEY(HomeTID) REFERENCES Game(GameID)
+    FOREIGN KEY(AwayTID) REFERENCES Team(TeamID),
+    FOREIGN KEY(HomeTID) REFERENCES Team(TeamID)
 );
 
 CREATE TABLE Performance(

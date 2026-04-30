@@ -1,0 +1,16 @@
+TEAM,,,,,
+TeamID,SportID,SchoolID,Venue,Divison,Budget
+T001,FB,S001,Tiger Stadium,SEC,40000000
+T002,FB,S002,Bryant-Denny Stadium,SEC,20000000
+T003,FB,S003,Vaught-Hemingway Stadium,SEC,12000000
+T004,FB,S004,Sanford Stadium,SEC,25000000
+T005,FB,S005,Kyle Field,SEC,30000000
+T006,FB,S006,Ben Hill Griffin,SEC,18000000
+T007,FB,S007,Neyland Stadium,SEC,22000000
+T008,FB,S008,Jordan-Hare Stadium,SEC,16000000
+T009,FB,S009,Memorial Stadium,ACC,15000000
+T010,BBF,S010,Gaylord Family-Oklahoma Memorial Stadium,SEC,20000000
+T011,BBF,S001,Maravich Center,SEC,50000000
+T012,BBF,S006,Ben Hill Griffin,SEC,30000000
+T013,BBF,S002,Bryant-Denny Stadium,SEC,40000000
+T014,BBF,S005,Kyle Stadium,SEC,20000000
