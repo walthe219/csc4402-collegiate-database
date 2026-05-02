@@ -4,9 +4,9 @@ P003,Ankle Sprain,2025-09-21,2025-10-05
 P005,Hamstring Strain,2025-09-28,2025-10-19
 P008,Shoulder Bruise,2025-10-04,2025-10-18
 P011,Wrist Soreness,2025-11-03,2025-11-17
--,,,
--,,,
--,,,
--,,,
--,,,
--,,,
+P001,Ankle Sprain,2026-09-21,null
+P002,Hamstring Strain,2026-09-28,null
+P004,Shoulder Bruise,2026-10-04,null
+P009,Wrist Soreness,2026-11-03,null
+P010,Broken Arm,2026-11-03,2026-15-04
+P014,Concussion,2026-11-03,null

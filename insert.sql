@@ -11,7 +11,7 @@ INSERT INTO Player values ('P008','Tyler','Williams',74,19,'Freshman',205,'Tampa
 INSERT INTO Player values ('P009','London','Humphreys',74,20,'Junior',200,'Nashville');
 INSERT INTO Player values ('P010','Garrett','Nussmeier',74,23,'Senior',205,'Lake Charles');
 INSERT INTO Player values ('P011','Michael','Van Buren',73,20,'Sophomore',200,'Bowie');
-INSERT INTO Player values ('P012','Flaujae','Johnson',70,22,'Senior',149,'Savannah');
+INSERT INTO Player values ('P012','Flau jae','Johnson',70,22,'Senior',149,'Savannah');
 INSERT INTO Player values ('P013','Jessica','Timmons',68,23,'Senior',135,'Charlotte');
 INSERT INTO Player values ('P014','Nyceara','Pryor',63,22,'Senior',122,'Baltimore');
 
@@ -111,12 +111,12 @@ INSERT INTO Injury values ('P003','Ankle Sprain','2025-09-21','2025-10-05');
 INSERT INTO Injury values ('P005','Hamstring Strain','2025-09-28','2025-10-19');
 INSERT INTO Injury values ('P008','Shoulder Bruise','2025-10-04','2025-10-18');
 INSERT INTO Injury values ('P011','Wrist Soreness','2025-11-03','2025-11-17');
-INSERT INTO Injury values ('-','','','');
-INSERT INTO Injury values ('-','','','');
-INSERT INTO Injury values ('-','','','');
-INSERT INTO Injury values ('-','','','');
-INSERT INTO Injury values ('-','','','');
-INSERT INTO Injury values ('-','','','');
+INSERT INTO Injury values ('P001','Ankle Sprain','2026-09-21',null);
+INSERT INTO Injury values ('P002','Hamstring Strain','2026-09-28',null);
+INSERT INTO Injury values ('P004','Shoulder Bruise','2026-10-04',null);
+INSERT INTO Injury values ('P009','Wrist Soreness','2026-11-03',null);
+INSERT INTO Injury values ('P010','Broken Arm','2026-11-03','2026-04-15');
+INSERT INTO Injury values ('P014','Concussion','2026-11-03',null);
 
 -- Performance records
 DELETE FROM Performance;
@@ -200,3 +200,6 @@ INSERT INTO BasketBallStats values ('BB08','G013','P013',33,2,0,5);
 
 -- PitcherStats records
 DELETE FROM PitcherStats;
+
+INSERT INTO PitcherStats values ('PT01','G009','P012',8,2,0,6);
+INSERT INTO PitcherStats values ('PT02','G010','P012',9,3,1,1);

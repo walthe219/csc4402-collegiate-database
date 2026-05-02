@@ -1,6 +1,6 @@
 # Collegiate Sports Database
 
-This repository takes CSV files downloaded from Google Sheets containing our database records, and creates an sql file with insertion statements for each record in every table
+This repository takes CSV files downloaded from Google Sheets containing the database data, and creates an SQL file with insertion statements for each record in every table
 
 # Requirements
 1. any relational database managment system, instruction assuming PostgreSQL
@@ -11,9 +11,9 @@ This repository takes CSV files downloaded from Google Sheets containing our dat
 # Instructions
 
 ## Creating SQL Files
-This assumes that you have CSV Files for all database tables. If any are missing you will see in the output.
+This assumes that you have CSV Files for all database tables. If any are missing any files you will see a message in the output.
 
-while in the root directory run:
+While in the root directory run:
 
 `pytyhon import.py`
 
@@ -26,6 +26,8 @@ This assumes that your DBMS installed and setup.
 ### 1. Create a database
 
 In your DBMS, create a database of any name, instructions assume `csc4402`
+
+`CREATE DATABASE csc4402`;
 
 ### 2. Create Tables
 
@@ -45,6 +47,9 @@ Example: From powershell using PostgresSQL with database named `csc4402`
 
 # Future Improvements
 
+
+- Known issue: null values are wrapped in 'null' instead of as just null in values
+- Known issue: 
 - Automatically read files names from data folder 
 - Automatically donwload CSV files from any given Google Sheet URL
 - Support Env variables, automatically create database, tables, and insert data from python scripts
